@@ -1,0 +1,21 @@
+#include<algorithm>
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+string str;
+string st;
+cout<<"Enter the string:";
+cin>>str;
+st=str;
+reverse(str.begin(),str.end());
+if(str==st)
+{
+    cout<<"String is palindrome";
+    
+}
+else{
+    cout<<"String is not palindrome";
+}
+
+}
